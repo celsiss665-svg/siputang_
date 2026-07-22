@@ -1,0 +1,22 @@
+=== SimpleStorage ===
+Alamat Kontrak: 0x5FbDB2315678afecb367f032d93F642f64180aa3
+Tx Hash Deploy: 0x883292491d6d48346dc272037666938cb697207d319ea4deee7d35896af1067c
+Tx Hash store(42): 0x5ab39d91f89f66d97cf37c4a65ddb043de7d9be1eea8e0a04b0070a83cf61c30
+Gas Used store(42): 45289
+Block Number: 2
+Retrieve sebelum: 0 | sesudah: 42
+Status: 1 (success)
+
+=== CatatanUtang (SIPUTANG - dengan fitur cicilan) ===
+Alamat Kontrak: 0x5FbDB2315678afecb367f032d93F642f64180aa3
+Tx Hash Deploy: 0xa3fd65a3c3701ded2b9e7a32251f9127a053b2d7877d2414cd58ce2846e1aab7
+
+=== Geth Private Net (Clique PoA) ===
+Signer Address: 0xa5b9EF351042828c9c0A41B54804BA11F3F2033d
+Network ID: 786
+Chain ID: 786
+Consensus: Clique (Proof-of-Authority)
+Bukti blok naik (sealing aktif): 10 → 14
+
+=== Repository GitHub ===
+Link: https://github.com/celsiss665-svg/siputang_
