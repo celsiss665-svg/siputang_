@@ -3,13 +3,27 @@ Alamat Kontrak: 0x5FbDB2315678afecb367f032d93F642f64180aa3
 Tx Hash Deploy: 0x883292491d6d48346dc272037666938cb697207d319ea4deee7d35896af1067c
 Tx Hash store(42): 0x5ab39d91f89f66d97cf37c4a65ddb043de7d9be1eea8e0a04b0070a83cf61c30
 Gas Used store(42): 45289
-Block Number: 2
 Retrieve sebelum: 0 | sesudah: 42
 Status: 1 (success)
 
 === CatatanUtang (SIPUTANG - dengan fitur cicilan) ===
 Alamat Kontrak: 0x5FbDB2315678afecb367f032d93F642f64180aa3
 Tx Hash Deploy: 0xa3fd65a3c3701ded2b9e7a32251f9127a053b2d7877d2414cd58ce2846e1aab7
+
+Transaksi via Aplikasi CLI (siputang.js):
+1. Catat Utang Baru (ID 0, "Beli Galon", Rp25.000)
+   Tx Hash: 0x793d3b81ebaa400bfffe1d6b847aa89806527278d3df141c3195588f5e35b0
+   Gas Terpakai: 162169
+
+2. Bayar Cicilan Sebagian (ID 1, "Beli Token Listrik", bayar Rp50.000 dari Rp100.000)
+   Tx Hash: 0x54ea9fca80f4ff18e2a89f5ce7359a95d01c45f340e66f4489ce3863a668df22
+   Gas Terpakai: 33945
+   Status setelah bayar: BELUM LUNAS (sisa Rp50.000)
+
+3. Bayar Lunas (ID 0, "Beli Galon", bayar Rp25.000 - lunas total)
+   Tx Hash: 0xf431b7b17ae5ec1926f629cc6e0aa8170479c0c5792a18a7c75421db6be9ce3bc
+   Gas Terpakai: 50460
+   Status setelah bayar: LUNAS
 
 === Geth Private Net (Clique PoA) ===
 Signer Address: 0xa5b9EF351042828c9c0A41B54804BA11F3F2033d
